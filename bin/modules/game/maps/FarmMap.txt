@@ -1,0 +1,46 @@
+﻿// ========================
+// ========= Farm =========
+// ========================
+// ' ' = None
+// S = Stone
+// T = Tree
+// t = children tree
+// m = Map border
+// P = portal to new map
+
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+m                                                                               
+mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
