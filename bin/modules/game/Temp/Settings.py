@@ -1,7 +1,7 @@
 import pygame
 
 
-WIN_SIZE = (400, 250)
+WIN_SIZE = (800, 600)
 BG_COLOR = (83, 199, 92)
 BLOCK_SIZE = (30, 30)
 MOVE_SPEED = 5

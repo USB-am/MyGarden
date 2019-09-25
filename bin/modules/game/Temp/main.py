@@ -3,7 +3,6 @@
 import pygame
 
 # My modules
-from Camera import Camera
 from Hero import Hero
 from InteractiveBlocks import *
 from Map import Map
@@ -27,9 +26,6 @@ if __name__ == '__main__':
 	bg = pygame.image.load(os.path.dirname(__file__) + '\\images\\textures\\grass.png')
 	bg = pygame.transform.scale(bg, Settings.BLOCK_SIZE)
 	farm_map = Map(master=master, name='farm')
-
-	# = Camera = #
-	camera = Camera(hero, (farm_map.map_size[0], farm_map.map_size[1]))
 
 	# === Main cycle === #
 	RUN = True
@@ -69,13 +65,6 @@ if __name__ == '__main__':
 				RUN = False
 
 		master.fill(Settings.BG_COLOR)
-
-		# for x in range(Settings.WIN_SIZE[0]//Settings.BLOCK_SIZE[0]+1):
-		# 	for y in range(Settings.WIN_SIZE[1]//Settings.BLOCK_SIZE[1]+1):
-		# 		master.blit(bg, (x*Settings.BLOCK_SIZE[0], y*Settings.BLOCK_SIZE[1]))
-
-		camera.update()
 		farm_map.render()
-		camera.draw(master)
-		# hero.draw()
+		hero.draw()
 		pygame.display.flip()
